@@ -225,7 +225,6 @@ article:nth-child(3) section:nth-child(1) div.texto {
 
 .thumbnail {
     width: fit-content;
-    width: 230px;
 }
 
 h2.texto {
@@ -319,7 +318,10 @@ article:nth-child(5) figure {
     article:nth-child(2) section:nth-child(2) figure {
         margin: 0;
     }
-
+    .thumbnail {
+        width: fit-content;
+        width: 230px;
+    }
     iframe {
         height: 200px;
     }
@@ -331,8 +333,23 @@ article:nth-child(5) figure {
     }
 
     article:nth-child(3) section:nth-child(1) div.texto {
-        padding: 0;
+        padding: 2em 0;
         width: fit-content;
         font-size: 14px;
+    }
+    .centro{
+        max-width: 400px;
+    }
+}
+@media (max-width: 1200px ){
+    .thumbnail {
+        width: fit-content;
+        width: 230px;
+    }
+}
+@media (max-width: 320px){
+    .thumbnail {
+        width: fit-content;
+        width: 290px;
     }
 }
