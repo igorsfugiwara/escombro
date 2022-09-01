@@ -182,6 +182,9 @@ article:nth-child(3) section:nth-child(1) figure {
     width: 30%;
     height: fit-content;
     min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
 }
 
 iframe {
@@ -250,6 +253,9 @@ article:nth-child(5) figure {
     justify-content: center;
     flex-wrap: wrap;
 }
+.mapa_de_palco img {   
+    width: 90%;
+}
 
 .mapa_de_palco {
     display: flex;
@@ -307,6 +313,7 @@ article:nth-child(5) figure {
 
     iframe {
         height: 200px;
+        width: 90%;
     }
 
     h2.texto {
