@@ -66,6 +66,9 @@ p {
     font-family: 'Cairo', sans-serif;
     font-size: 24px;
 }
+.texto.video{
+    background: none;
+}
 .centro {
     position: absolute;
     top: 50%;
@@ -134,10 +137,11 @@ article:nth-child(5) section:nth-child(1) {
     justify-content: center;
     align-items: center;
     height: 100%;
-}
+    }
 article:nth-child(5) section:nth-child(1) .texto,
 article:nth-child(6) section:nth-child(1) {
     width: 100%;
+    background: none;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,6 +182,7 @@ h2.texto {
     font-size: 46px;
     font-family: 'Cairo', sans-serif;
     padding: 0.5em 0;
+    background: none;
 }
 article:nth-child(5) section:nth-child(1) {
     display: flex;
@@ -203,11 +208,12 @@ article:nth-child(7) a {
     padding: 1em;
     width: fit-content;
     height: fit-content;
-    border: 2px solid white;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    color: #000;
+    background-color: #DDD;
     border-radius: 5px;
-    margin: 2em;
+    margin: 1em;
+    font-family: 'Cairo', sans-serif;
 }
 article:nth-child(7) {
     justify-content: center;
