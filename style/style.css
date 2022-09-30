@@ -49,10 +49,10 @@ li {
     height: 150px;
 }
 .texto__corrido {
-    margin: 1em;
+    margin: .5em;
     height: fit-content;
     width: 90%;
-    padding: 1em;
+    padding: .5em;
 }
 .texto__cabecalho {
     font-family: 'Cairo', sans-serif;
@@ -296,6 +296,10 @@ article:nth-child(7) figure {
     }
     h2.texto {
         font-size: 24px;
+    }
+    article:nth-child(4) .secao{
+        display: flex;
+        flex-direction: column;
     }
     article:nth-child(5) section:nth-child(1) div.texto {
         padding: 2em 0;
