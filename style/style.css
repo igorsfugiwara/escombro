@@ -55,7 +55,6 @@ li {
 
 .texto,
 .texto__corrido {
-    background-color: #000000;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
     width: 450px;
     height: 150px;
@@ -72,6 +71,21 @@ li {
 .texto__cabecalho {
     font-family: 'Cairo', sans-serif;
     font-size: 46px;
+}
+
+.release {
+    text-align: left;
+    margin: 1em 0;
+}
+
+.integrantes__foto {
+    width: 100%;
+    padding: 1em 0;
+    flex-direction: column;
+}
+
+.instagram {
+    margin: 0 1em 0 0;
 }
 
 p {
@@ -251,7 +265,8 @@ h2.texto {
     padding: 0.5em;
 }
 
-article:nth-child(7) a, article:nth-child(5) section a{
+article:nth-child(7) a,
+article:nth-child(5) section a {
     padding: 1em;
     width: fit-content;
     height: fit-content;
@@ -262,7 +277,8 @@ article:nth-child(7) a, article:nth-child(5) section a{
     margin: 1em;
     font-family: 'Cairo', sans-serif;
 }
-article:nth-child(2) section:nth-child(2) a{
+
+article:nth-child(2) section:nth-child(2) a {
     display: flex;
     align-items: center;
 }
