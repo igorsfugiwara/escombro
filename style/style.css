@@ -111,6 +111,13 @@ p {
     margin: 0
     ;
 }
+.texto__cabecalho.sons{
+    margin: 1em 0 0;
+}
+.sons li {
+    display: flex;
+    flex-direction: column;
+}
 
 article:nth-child(3) {
     flex-wrap: wrap;
