@@ -272,6 +272,7 @@ h2.texto {
 article:nth-child(7) a,
 article:nth-child(5) section a {
     padding: 1em;
+    text-decoration: none;
     width: fit-content;
     height: fit-content;
     color: #fff;
