@@ -17,6 +17,8 @@ body {
     background-color: #000000;
     background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
     color: #FFF;
+    width: 90%;
+    margin: 0 auto;
 }
 
 article {
@@ -267,11 +269,6 @@ article:nth-child(5) section:nth-child(1) h2.texto {
     padding: 0.5em;
 }
 
-article:nth-child(5) section:nth-child(1) div.texto {
-    padding: 2em 0;
-    width: 90%;
-}
-
 .thumbnail {
     width: fit-content;
 }
@@ -344,6 +341,7 @@ article:nth-child(7) figure {
 
 .secao ul li:hover {
     background-color: #333;
+    transition: 0.5s;
 }
 
 .pitch div h2 {
