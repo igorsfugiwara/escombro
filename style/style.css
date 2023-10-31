@@ -218,7 +218,6 @@ article:nth-child(6) section:nth-child(1) {
 
 article:nth-child(5) section:nth-child(1) figure {
     display: flex;
-    width: 90%;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 0.5em;
@@ -282,6 +281,10 @@ article:nth-child(5) section:nth-child(1) h2.texto {
 
 h2.texto {
     padding: 0.5em;
+}
+
+.texto__corrido ul li span {
+    font-weight: 700;
 }
 
 article:nth-child(7) a,
@@ -351,6 +354,7 @@ article:nth-child(7) figure {
     background-color: #333;
     transition: 0.3s;
     border-radius: 12px;
+    padding: 0.5em;
 }
 
 .secao img {
@@ -415,19 +419,20 @@ article:nth-child(7) figure {
     }
 
     .texto__corpo {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .texto__corrido ul {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .texto__corrido ul li {
         padding: 0.2em 0;
+        gap: 4px;
     }
 
     .texto__corrido ul li p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     article:nth-child(2) section:nth-child(2) figure {
@@ -436,15 +441,15 @@ article:nth-child(7) figure {
 
     .thumbnail {
         width: fit-content;
-        width: 230px;
+        width: 260px;
     }
 
     iframe {
-        height: 200px;
+        height: 152px;
     }
 
     h2.texto {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     article:nth-child(4) .secao,
@@ -461,6 +466,7 @@ article:nth-child(7) figure {
         padding: 2em 0;
         width: fit-content;
         font-size: 14px;
+        gap: 4px;
     }
 
     .centro {
@@ -470,15 +476,17 @@ article:nth-child(7) figure {
 
 @media (max-width: 1200px) {
     .thumbnail {
-        width: fit-content;
-        width: 230px;
+        width: 290px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
     .thumbnail {
-        width: fit-content;
-        width: 290px;
+        width: 235px;
+    }
+
+    iframe {
+        height: 82px;
     }
 }
 
