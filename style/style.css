@@ -9,6 +9,10 @@ a {
     color: #999;
 }
 
+.arrow-down {
+    transition: all 0.5s ease;
+}
+
 li {
     display: flex;
     justify-content: space-between;
@@ -18,7 +22,7 @@ body {
     background-color: #000000;
     background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
     color: #FFF;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -110,13 +114,15 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.tabela_parceiros{
-    margin: 0
-    ;
+
+.tabela_parceiros {
+    margin: 0;
 }
-.texto__cabecalho.sons{
+
+.texto__cabecalho.sons {
     margin: 1em 0 0;
 }
+
 .sons li {
     display: flex;
     flex-direction: column;
@@ -307,6 +313,7 @@ article:nth-child(7) figure img {
     height: fit-content;
     width: 40%;
     padding: 0.5em;
+    border-radius: 12px;
 }
 
 article:nth-child(7) figure {
@@ -342,8 +349,10 @@ article:nth-child(7) figure {
 
 .secao ul li:hover {
     background-color: #333;
-    transition: 0.5s;
+    transition: 0.3s;
+    border-radius: 12px;
 }
+
 .secao img {
     width: 100%;
 }
@@ -361,6 +370,19 @@ article:nth-child(7) figure {
 
 .pitch_wrapper {
     flex-direction: column;
+}
+
+.apoios {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+}
+
+.apoios img {
+    width: 500px;
 }
 
 @media (max-width: 800px) {
@@ -461,30 +483,38 @@ article:nth-child(7) figure {
 }
 
 .arrow-pulse-down:after {
-	content: "🡣"; /* Here you can change the style of the arrow */
-	position: absolute;
-	width: 35px; height: 35px;
-	margin: 0 auto;
-	left: 0; right: 0;
-	font-size: 35px;
-	animation: arrow-pulse-down 700ms linear infinite;
+    content: "🡣";
+    /* Here you can change the style of the arrow */
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    font-size: 35px;
+    animation: arrow-pulse-down 700ms linear infinite;
 }
-	@keyframes arrow-pulse-down {
-		0% {
-			bottom: 40px;
-			opacity: 0;
-		}
-		25% {
-			opacity: .25;
-		}
-		50% {
-			opacity: .5;
-		}
-		75% {
-			opacity: .75;
-		}
-		100% {
-			bottom: 20px;
-			opacity: 1;
-		}
-	}
+
+@keyframes arrow-pulse-down {
+    0% {
+        bottom: 40px;
+        opacity: 0;
+    }
+
+    25% {
+        opacity: .25;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    75% {
+        opacity: .75;
+    }
+
+    100% {
+        bottom: 20px;
+        opacity: 1;
+    }
+}

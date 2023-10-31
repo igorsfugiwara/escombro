@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <article>
+    <article id="page-1">
         <div>
             <figure>
                 <h1 aria-label="Escombro">
@@ -20,10 +20,12 @@
                     <img class="centro" src="./assets/logo_png.png" alt="">
                 </h1>
             </figure>
-            <div class="arrow-pulse-down"></div>
+            <a class="arrow-down" href="#page-2">
+                <div class="arrow-pulse-down"></div>
+            </a>
         </div>
     </article>
-    <article>
+    <article id="page-2">
         <section>
             <div class="texto__corrido">
                 <h2 class="texto__cabecalho">
@@ -955,6 +957,11 @@
             <div class="texto">
                 <figure>
                     <div class="thumbnail"><iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/album/6uATvfKnGzCdRfCSGyr4EP?utm_source=generator&theme=0"
+                        width="80%" height="auto" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe></div>
+                    <div class="thumbnail"><iframe style="border-radius:12px"
                             src="https://open.spotify.com/embed/album/3VnDl1xxV5bxYjWsnz2Tyo?utm_source=generator&theme=0"
                             width="80%" height="auto" frameBorder="0" allowfullscreen=""
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
@@ -994,17 +1001,28 @@
         <section>
             <h2 class="texto">Video Clipes</h2>
             <div class="texto video">
-                <div class="video__item"><iframe width="560" height="315" src="https://www.youtube.com/embed/Ms_uTRo11ws"
+                <div class="video__item"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/Ms_uTRo11ws"
                         title="ESCOMBRO - AMÉM - feat. Thiago Castor (Inherence, One True Reason, Mendigo Truta)[OFFICIAL VIDEO HD]"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe></div>
                 <div class="video__item">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ac9m2fO2cFI" title="ESCOMBRO - RASGANDO O VERBO (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ac9m2fO2cFI"
+                        title="ESCOMBRO - RASGANDO O VERBO (Official Video)" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe></div>
                 <div class="video__item">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iZOrgf5KV4Q" title="ESCOMBRO - CICATRIZES (part. Milton Aguiar - BAYSIDE KINGS ) [OFFICIAL VIDEO] (HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-                    <div class="video__item">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/65svPlzq8l8" title="ESCOMBRO - RECOMEÇO [OFFICIAL VIDEO] (HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/65svPlzq8l8"
+                        title="ESCOMBRO - RECOMEÇO [OFFICIAL VIDEO] (HD)" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe></div>
+                <div class="video__item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iZOrgf5KV4Q"
+                        title="ESCOMBRO - CICATRIZES (part. Milton Aguiar - BAYSIDE KINGS ) [OFFICIAL VIDEO] (HD)"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe></div>
                 <div class="video__item"><iframe width="560" height="315"
                         src="https://www.youtube.com/embed/5p-1EKEU1iE" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -1034,14 +1052,19 @@
         </figure>
         <a href="./pages/galeria.html">Ir para galeria de fotos</a>
         </section>
-        <section class="mapa_de_palco">
+        <!-- <section class="mapa_de_palco">
             <h3 class="texto__cabecalho">Mapa de Palco</h3>
             <img src="./assets/map_de_palco.jpeg" alt="Mapa de Palco">
             <a href="./assets/map_de_palco.jpeg" download>
                 Fazer download do MAPA DE PALCO
             </a>
-        </section>
+        </section> -->
     </article>
+    <article class="apoios">
+        <img src="./assets/repretente texto branco.png" alt="Logo do selo Repetente Records">
+    </article>
+
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
