@@ -8,3 +8,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
   });
+
+  $(document).ready(function() {
+    $('[data-toggle="popover"]').popover({
+       placement: 'top',
+       trigger: 'hover'
+    });
+ });
