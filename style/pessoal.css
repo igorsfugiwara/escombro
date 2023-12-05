@@ -147,8 +147,13 @@ nav.navbar a img  {
     }
 }
 
-@media(min-width:768px) {
-    .timeline {
-        flex-;
+@media(max-width: 726px) {
+    .fotos{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .fotos .fotos__img {
+        width: 80%;
     }
 }
