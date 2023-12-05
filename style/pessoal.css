@@ -1,3 +1,7 @@
+p{
+    line-height: 30px;
+    font-size: 16px;
+}
 li a {
     color: white;
     text-decoration: none;
@@ -80,7 +84,6 @@ hr {
 }
 nav.navbar a img  {
     height: 100px;
-    margin: 2em 0 0 0;
 }
 .navbar a:nth-child(odd){
     border: none;
