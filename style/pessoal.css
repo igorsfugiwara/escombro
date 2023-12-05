@@ -89,7 +89,14 @@ nav.navbar a img  {
 article ul li::before{
         content: ' \1F480';
         padding-right: 4px;
-    }
+}
+img{
+    transition: all 0.5s;
+}
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 8px white;
+}
 
 @-webkit-keyframes tracking-in-expand {
     0% {
