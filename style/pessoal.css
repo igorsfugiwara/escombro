@@ -87,7 +87,7 @@ nav.navbar a img  {
     background: none;
 }
 article ul li::before{
-        content: ' \2620';
+        content: ' \1F480';
         padding-right: 4px;
     }
 
