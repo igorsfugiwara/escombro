@@ -100,6 +100,9 @@ img:hover {
     transform: scale(1.1);
     box-shadow: 0 0 8px white;
 }
+iframe{
+    margin: 0 auto;
+}
 
 @-webkit-keyframes tracking-in-expand {
     0% {
